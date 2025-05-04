@@ -33,12 +33,14 @@
     <div class="alterardados container">
       <img src="images/perfil.jpg" alt="Foto de perfil de um homem" class="fotoperfil">
       <div class="dados-perfil">
-        <h2>Seja bem vindo, <span id="nomeUsuario" class="destaque">Usuário</span>!</h2><br>
+        <h3>Seja bem vindo, <span id="nomeUsuario" class="destaque">Usuário</span>!</h3><br>
         <div class="nome">
           <p>Nome</p>
+          <input type="text" name="nome" placeholder="Usuário da Plataforma" disabled>
         </div>
-        <div class="documento">
-          <p>Documento de Identidade</p>
+        <div class="doc">
+          <p>Documento</p>
+          <input type="text" nome="doc" placeholder="XXX.XXX.XXX-XX" disabled>
         </div>
         <div class="email">
         <div action="email">
@@ -54,14 +56,14 @@
           <form action="telefone">
             <p>Telefone para contato</p>
             <input type="text" name="telefone" placeholder="Insira seu novo telefone">
-            </div></div>
-        <div class="salvar">
-          <button>Salvar Alterações</button>
+        </div>
+        <button>Salvar Alterações</button>
+        </div>
+        <div class="botaosair">
+          <button class="botaosair">Voltar</button>
         </div>
     </div>
-      <div class="botaosair">
-        <button class="botaosair">Voltar</button>
-      </div>
+     
     </div>
   </main>
   
